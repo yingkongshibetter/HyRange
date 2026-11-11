@@ -46,6 +46,4 @@ python -I -B -X utf8 experiments/twinsearch/run_ts.py random 23:59
 python -I -B -X utf8 experiments/twinsearch/run_ts.py table        # -> results/twinsearch/results.json
 ```
 
-Expected (paper, paragraph Enumeration; `results_expected/paper_numbers.md`): at mean degree two and three
-TwinSearch finishes within 600 s on all 220 random inputs, and the hyperedges common to its lists equal the
-hyperedges certified by HyRange on all 220; at mean degree six it finishes on three of seven inputs with 10 nodes.
+The summary records completion within the time limit and compares the hyperedges common to the enumerated solutions with the HyRange certificates.
