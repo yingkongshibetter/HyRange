@@ -1,6 +1,6 @@
 # Running the experiments
 
-Use Python 3.12 and install `requirements.txt`. Run the commands below from the extracted `HyRange` folder. Results are written to `results/` by default. Set `HYRANGE_RESULTS` to use a different directory.
+Use Python 3.12 and install `requirements.txt`. Run the commands below from the repository root. Results are written to `results/` by default. Set `HYRANGE_RESULTS` to use a different directory.
 
 ## Start with one benchmark
 
@@ -32,6 +32,6 @@ The commands below use the prefix `python -I -B -X utf8 experiments/`. Replace `
 | Local certification | `dense_samples.py plan`, `dense_samples.py drive`, `local_cert.py m4all`, `local_cert.py drive --levels node --wall 900 --tag _node`, `local_cert.py drive --levels all --wall 1800 --tag _lv`, `local_cert_summary.py` |
 | Perturbation and label precision | `perturb.py run <dataset> <mode>`, `perturb.py summary`, `label_precision.py` |
 
-The OpenAlex samples are included. `data/README.md` in the archive describes the other sources. To run the MARIOH baseline, install `requirements-marioh.txt` in a separate environment and set `HYRANGE_MARIOH_PYTHON` to that environment's Python. Use `requirements-cpsat.txt` for CP-SAT. For TwinSearch, follow `experiments/twinsearch/README.md` in the archive.
+The OpenAlex samples are included. [Data setup](data/README.md) describes the other sources. To run the MARIOH baseline, install `requirements-marioh.txt` in a separate environment and set `HYRANGE_MARIOH_PYTHON` to that environment's Python. Use `requirements-cpsat.txt` for CP-SAT. For TwinSearch, follow [its build instructions](experiments/twinsearch/README.md).
 
 The benchmark configuration uses seeds 0, 1, and 2 and one CPU thread per run. Solver and per-job limits are defined in the source. The more expensive baseline runs can take an hour or longer.

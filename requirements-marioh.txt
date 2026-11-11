@@ -1,0 +1,7 @@
+# Environment of the MARIOH runs (experiments/marioh_runner.py), Python 3.12.10, CPU only.
+# MARIOH's own requirements.txt asks for joblib 1.4.2, networkx 3.1, numpy 2.2.0, torch 2.1.0; we used torch 2.13 CPU.
+joblib==1.4.2
+networkx==3.1
+numpy==2.2.0
+scipy==1.18.0
+torch==2.13.0

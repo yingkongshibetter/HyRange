@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+results/
+data/MARIOH/
+data/zenodo/
+.venv*/
+*.egg-info/
+experiments/twinsearch/build/
+experiments/twinsearch/deps/
+experiments/twinsearch/venv/
+experiments/twinsearch/twin_search_src/
+experiments/twinsearch/zigcache/
+experiments/twinsearch/tmp/

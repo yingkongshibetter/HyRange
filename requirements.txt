@@ -1,0 +1,7 @@
+# Versions used for the experiments (Python 3.12.10).  HiGHS 1.12 is the one shipped with SciPy 1.18.
+numpy==2.5.2
+scipy==1.18.0
+networkx==3.6.1      # maximal cliques of the exports (hyrange/exports.py)
+matplotlib==3.11.1   # figures (experiments/fig2_false_teams.py, experiments/fig4_rule_steps.py)
+psutil==7.2.2        # process control of the long experiment drivers
+# pytest (optional, any recent version): the tests also run as plain scripts

@@ -1,0 +1,6 @@
+# Environment of experiments/cpsat_baseline.py (the CP-SAT sentence of the experiments), Python 3.12.10.
+numpy==2.5.2
+scipy==1.18.0
+ortools==9.15.6755
+protobuf==6.33.6
+psutil==7.2.2
